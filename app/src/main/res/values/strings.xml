@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MoneyConverter</string>
+    <string name="convert_button_text">Rubles to dollars</string>
+</resources>
