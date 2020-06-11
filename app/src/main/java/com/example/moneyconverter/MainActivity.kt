@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        convertButton = findViewById(R.id.convertButton)
-        convertButton.setOnClickListener(View.OnClickListener {
+        convertButton = findViewById(R.id.convertButton);
+        convertButton!!.setOnClickListener(View.OnClickListener {
             val moneyInputDialogBuilder = AlertDialog.Builder(this@MainActivity)
             moneyInputDialogBuilder.setTitle("Rubles to dollars conversion")
             moneyInputDialogBuilder.setMessage("Input sum in rubles")
